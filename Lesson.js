@@ -203,13 +203,18 @@ for(let i =1; i <= n; i++){
 //LESSON 13 
 let m = Number(prompt("Enter number of edges"))
 let a = m + 3
-  for(let n = 3; n < a; n++){
-    for(let i = 0; i < n; i ++){
+for(let n = 3; n < a; n++){
+  if(n %2 == 0){
+     color("green")
+  }else if(n %2 != 0){
       color("red")
+  }    
+   for(let i = 0; i < n; i ++){
       fd(100)
       rt(360/n)
     }
-  }
+}
+
 //Additional Exercises
 //a
 let username = 'c4e'
