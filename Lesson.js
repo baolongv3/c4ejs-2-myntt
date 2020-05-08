@@ -193,7 +193,7 @@ for(let i = 0; i < 6; i++){
 }
 
 //LESSON 12
-let n = Number(prompt("Enter a number"))
+let n = Number(prompt("Enter number of edges"))
 let angle = 360/n
 for(let i =1; i <= n; i++){
     fd(10)
