@@ -193,8 +193,14 @@ for(let i = 0; i < 6; i++){
 }
 
 //LESSON 12
-//LESSON 13 Em không giải ra ạ :((
+let n = Number(prompt("Enter a number"))
+let angle = 360/n
+for(let i =1; i <= n; i++){
+    fd(10)
+    rt(angle)
+}
 
+//LESSON 13 
 
 //Additional Exercises
 //a
