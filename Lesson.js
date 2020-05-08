@@ -69,11 +69,13 @@ for(let i = c; i < n; i += s){
     console.log(Number(i))
 }
 
-//LESSON 4 em không giải ra ạ :((
-let number = Number(prompt("Enter a number you like"))
-for(let i = 1; i <= number; i *= number){
-    alert(`the factorial of ${Number(number)} is ${Number(i)}`)
+//LESSON 4 
+let n = Number(prompt("Enter a number"))
+let result = 1
+for(let i = 1; i <= n; i++){
+    result = result*i
 }
+alert(`The factorial of ${result}`)
 
 //LESSON 5
 let age = Number(prompt("How are you?"))
