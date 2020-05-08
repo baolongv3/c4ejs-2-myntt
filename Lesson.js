@@ -135,7 +135,18 @@ for(high = 0; high < (sum-low); high++){
 }
 
 //c
-//d Em không giải ra ạ :((
+let number = 8
+for(let i = 0; i < number/2; i++){
+    console.log(Number("0"))
+    console.log(Number("1"))
+}
+
+//d 
+let number = Number(prompt("Enter a number"))
+for(let i = 0; i < number/2; i++){
+    console.log(Number("0"))
+    console.log(Number("1"))
+}
 
 //LESSON 10
 let weight = Number(prompt("Your weight in kg?"))
