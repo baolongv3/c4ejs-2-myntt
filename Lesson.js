@@ -1,3 +1,31 @@
+//Lesson 1
+1.
+var : declare variable.
+const : declare variable with constant values.
+2.
+var is globally scope or function scope.
+let is block scope.
+var which is initialized as “undefined".
+let is not initialized.
+var variables can be re-declared and updated.
+let can be update but not re-declared.
+When use let, you don't have to bother if you have used a name for variable before as a variable exists only within its scope, then the problem discussed earlier that occurs with var doesn’t occur.
+3.
+let is declare variable.
+const is declare variable with constant values.
+let can be updated but not re-declared.
+const cannot be updated or re-declared.
+let can be declared without being initialized.
+const must be initialized during declared.
+4.
+Use let when variable change.
+Use const when variable never change.
+There’s no other use cases, we never need to use var again.
+
+//Lesson 2
+1. Boolean is a primitive data type commonly used in computer programming languages.
+2. Results in Boolean is:   True/False
+
 //LESSON 3
 //a
 let number
